@@ -1,0 +1,25 @@
+modLoader="javafml"
+loaderVersion="[36,)"
+license="MIT"
+
+[[mods]]
+    modId="dragonitems"
+    version="${file.jarVersion}"
+    displayName="Dragon Items"
+    displayURL="https://wouink.github.io"
+    authors="Wink"
+    description="Adds Lore to the Item which kills the Dragon."
+
+[[dependencies.dragonitems]]
+    modId="forge"
+    mandatory=true
+    versionRange="[36,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.examplemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.16.5,1.17)"
+    ordering="NONE"
+    side="BOTH"
